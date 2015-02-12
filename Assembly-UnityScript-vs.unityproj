@@ -46,8 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Boom.js" />
      <Compile Include="Assets\Scripts\Couple.js" />
      <Compile Include="Assets\Scripts\PlayerControl.js" />
+     <Compile Include="Assets\Scripts\R.js" />
      <Compile Include="Assets\Scripts\ReSpawn.js" />
      <Compile Include="Assets\Scripts\ThrowingThings.js" />
   </ItemGroup>

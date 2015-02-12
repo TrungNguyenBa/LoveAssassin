@@ -7,6 +7,7 @@ var rand : int;
 function Awake() {
 	xVelo = Random.Range(3f,6f);
 	target=new GameObject[3];
+	
 }
 function Start () {
 	this.yVelo=0f;
@@ -20,7 +21,7 @@ function Start () {
 }
 
 function FixedUpdate(){
-	this.transform.Translate((Vector3.right*this.xVelo+Vector3.up*this.yVelo)*Time.fixedDeltaTime);
+	this.transform.Translate((Vector3.right*this.xVelo+Vector3.up*this.yVelo)*Time.fixedDeltaTime*R.Slowchange);
 	
 }
 function setTarget(tar:GameObject[]) {
@@ -34,7 +35,7 @@ function setIndex(ind:int) {
 	this.index =ind;
 }
 function OnTriggerEnter2D(col: Collider2D) {
-	if (col.tag == "Destroys") {
+	if (col.tag =="Destroys") {
 		
 		GameObject.Destroy(this.gameObject);
 	}

@@ -1,9 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ReSpawn.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerControl.js">
     <Files>
-      <File FileName="Assets\Scripts\ReSpawn.js" Line="17" Column="14" />
-      <File FileName="Assets\Scripts\Couple.js" Line="14" Column="23" />
+      <File FileName="Assets\Scripts\R.js" Line="2" Column="16" />
+      <File FileName="Assets\Scripts\Boom.js" Line="38" Column="38" />
+      <File FileName="Assets\Scripts\ReSpawn.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Couple.js" Line="30" Column="23" />
+      <File FileName="Assets\Scripts\ThrowingThings.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerControl.js" Line="62" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
